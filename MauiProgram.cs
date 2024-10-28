@@ -28,6 +28,7 @@ namespace TasksManagementApp
             return builder.Build();
         }
 
+
         public static MauiAppBuilder RegisterPages(this MauiAppBuilder builder)
         {
             builder.Services.AddTransient<LoginView>();
