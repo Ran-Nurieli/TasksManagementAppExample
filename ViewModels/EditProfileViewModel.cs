@@ -335,7 +335,8 @@ namespace TasksManagementApp.ViewModels
 
                 //Call the Register method on the proxy to register the new user
                 InServerCall = true;
-                bool success = await proxy.UpdateUser(theUser);
+                bool success = await proxy.
+                    (theUser);
                 
 
                 //If the save was successful, navigate to the login page
